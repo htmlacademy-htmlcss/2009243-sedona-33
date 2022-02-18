@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
 
@@ -10,7 +11,7 @@
     <header class="page-header">
       <nav class="navigation">
         <a class="main-logo">
-          <img src="" alt="Логотип Седона">
+          <img src="images/logo.svg" height="70" width="139" alt="Логотип Седона">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -25,7 +26,8 @@
         </ul>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
+            <a class="navigation-link" href="#"> 
+            <img  src="images/search.svg" width="18,05" height="18,01">
               <span class="visually-hidden">
                 Поиск
               </span>
@@ -33,6 +35,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
+              <img src="images/favorite.svg" width="18,05" height="17">
               <span class="visually-hidden">
                 Избранное
               </span>
@@ -48,8 +51,12 @@
 <!---Основной блок главной страницы--->
 <main class="main-index">
   <section class="city-description">
+    <div class="sedona-background">
     <h1 class="visually-hidden">Седона</h1>
-    <img class="sedona-landscape" src="" alt="Пейзаж Седоны">
+    <div class="welcome">
+    <img src="images/welcome.png" height="352" width="458" alt="Добро пожаловать в Седону">
+    </div>
+    </div>
     <p class="slogan"><b>Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</b></p>
     <p class="reasons-to-choose">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
 </section>
@@ -60,28 +67,30 @@
 
   <ol>
     <li class="real-town">
-      <h3 class="advantage">Настоящий<br>городок</h3>
-      <p class="advantage-number">— №1 —</p>
-      <p class="advantage-description">Седона — не аттракцион<br>для туристов, там течёт<br>своя жизнь</p> 
-      
+      <div class="town">
+      <h3 class="advantage white">Настоящий<br>городок</h3>
+      <p class="advantage-number white">— №1 —</p>
+      <p class="advantage-description white">Седона — не аттракцион<br>для туристов, там течёт<br>своя жизнь</p> 
+      </div>
+
       <div class="city">
-      <img class="city-view" src="" alt="Вид города">
+        <img class="sedona-landscape" src="images/sedona-landscape.jpg"  height="384" width="800" alt="Вид города">
       </div>
 
       <div class="motel">
-      <img src="" alt="Иконка мотеля">
+      <img class="center" src="images/motel.svg" height="72" width="74,7" alt="Иконка мотеля">
       <h4 class="bonus-advantages">Жильё</h4>
       <p class="bonus-advantages-description">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</p>
       </div>
   
       <div class="meal">
-      <img src="" alt="Гамбургер">
+      <img src="images/hamburger.svg" width="73,81" height="70" alt="Гамбургер">
       <h4 class="bonus-advantages">Еда</h4>
       <p class="bonus-advantages-description">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не разочаруетесь!</p>
       </div>
   
       <div class="souvenirs">
-      <img src="" alt="Подарок">
+      <img src="images/gift.svg" width="64" height="75,95" alt="Подарок">
       <h4 class="bonus-advantages">Сувениры</h4>
       <p class="bonus-advantages-description">Не только китайского,<br>но и настоящего местного<br>производства!</p>
       </div>
@@ -89,12 +98,13 @@
    
 
     <li class="bridge-reason">
-      <h3 class="advantage">Там есть<br>мост дьявола</h3>
-      <p class="advantage-number">— №2 —</p>
-      <p class="advantage-description">Да, по нему можно пройти!<br>Если вы осмелитесь,<br>разумеется</p>
-      
+      <div class="bridge">
+      <h3 class="advantage white">Там есть<br>мост дьявола</h3>
+      <p class="advantage-number white">— №2 —</p>
+      <p class="advantage-description white" >Да, по нему можно пройти!<br>Если вы осмелитесь,<br>разумеется</p>
+      </div>
       <div class="bridge-pic">
-      <img class="devils-bridge" src="" alt="Мост дьявола">
+      <img class="devils-bridge" src="images/devils-bridge.jpg" height="384" width="800" alt="Мост дьявола">
       </div>
     </li>
   
@@ -125,15 +135,17 @@
   <h2 class="visually-hidden">Найти гостиницу</h2>
 <p class="interesting"><b>Заинтересовались?</b></p>
 <p class="our-offers">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-<a class="find-room" href="#">Поиск гостиницы в Седоне</a> 
+<div class="find-room">
+<a  href="#">Поиск гостиницы в Седоне</a> 
+</div>
 </section>
 
 <!---Рассылка--->
 <section class="get-info">
   <h2 class="visually-hidden">Подписаться на рассылку</h2>
-  <p class="mailing"><b>Подпишитесь на рассылку</b></p>
-  <p class="useful-info">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
-  <form action="https://echo.htmlacademy.ru">
+  <p class="mailing white" ><b>Подпишитесь на рассылку</b></p>
+  <p class="useful-info white">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+  <form action="https://echo.htmlacademy.ru" class="subscribe">
     <label for="e-mail" class="visually-hidden">Введите ваш e-mail</label>
     <input type="email" id="e-mail" placeholder="Ваш e-mail">
     <button type="submit" class="get-emails" >Подписаться</button>
@@ -148,14 +160,22 @@
 <footer class="contact-us">
 <h2 class="visually-hidden">Социальные сети</h2>
   <div class="social-media">
-    <img src="https://twitter.com/htmlacademy_ru" alt="Иконка Твиттера">
-    <img src="https://www.facebook.com/htmlacademy" alt="Иконка Фейсбука">
-    <img src="https://www.youtube.com/c/HTMLAcademyRUS" alt="Иконка YouTube">
+    <a href="https://twitter.com/htmlacademy_ru">
+    <img src="images/twitter-icon.svg" width="18" height="14,96" alt="Иконка Твиттера">
+    </a>
+    <a href="https://www.facebook.com/htmlacademy">
+    <img src="images/facebook-icon.svg" height="18" width="10" alt="Иконка Фейсбука">
+    </a>
+    <a href="https://www.youtube.com/c/HTMLAcademyRUS">
+    <img src="images/youtube-icon.svg" width="20,1" height="16" alt="Иконка YouTube">
+    </a>
   </div>
   <div class="phone">
   <a class="tel-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
 </div>
-  <img class="html-academy-logo" src="" alt="Логотип HTML Academy">
+  <a href="#">
+    <img class="html-academy-logo" src="images/html-academy.svg"  width="114,9" height="32,9" alt="Логотип HTML Academy">
+  </a>
 </footer>
   </body>
 </html>

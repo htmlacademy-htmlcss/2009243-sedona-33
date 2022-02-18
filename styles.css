@@ -1,0 +1,192 @@
+@font-face {
+font-family: "PT Sans";
+font-style: normal;
+font-weight: 400;
+src: url("fonts/ptsans-400.woff2") format("woff2");
+font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: url("fonts/ptsans-700.woff2") format("woff2");
+	font-display: swap;
+}
+
+body {
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+	background-color: #ffffff
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.navigation-link {
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 700;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+}
+
+.sedona-background {
+	color: #333333;
+	background-color: #ffffff;
+	background: url(images/Vector.png) no-repeat bottom, url(images/index-background.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.slogan, .mailing, .interesting {
+	font-family: "PT Sans", sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.reasons-to-choose {
+	font-family: "PT Sans", sans-serif;
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: 400;
+	text-align: center;
+	color: #333333;
+}
+
+.advantage, .bonus-advantages {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.advantage-number {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.bonus-advantages-description, .advantage-description {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.our-offers, .useful-info {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.tel-number {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+}
+
+.get-info {
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.town,.bridge{
+	background-color: #83B3D3;
+}
+
+.motel, .small-square, .less-tourists{
+	background-color: rgba(131, 179, 211, 0.12);
+
+}
+
+.souvenirs{
+	background-color: rgba(131, 179, 211, 0.12);
+}
+
+.picturesque-road{
+	background-color: rgba(131, 179, 211, 0.2);;
+}
+
+.white {
+    color:#ffffff
+}
+
+.subscribe{
+    text-align: center;
+}
+
+.phone{
+    text-align: center;
+}
+
+.find-room{
+    text-align: center;
+}
+
+.motel, .meal, .souvenirs{
+    text-align: center;
+}
+
+button{
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    background-color: #83B3D3;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.find-room > a{
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    background: #756257;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
