@@ -14,7 +14,15 @@
 	font-display: swap;
 }
 
+html {
+	height: 100%; 
+}
+
 body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 	font-family: "PT Sans", sans-serif;
 	font-size: 18px;
 	line-height: 21px;
@@ -31,6 +39,29 @@ a {
 	background-color: #ffffff;
 }
 
+.navigation {
+	display: flex;
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.navigation-list {
+	width: 530px;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation-user {
+	max-width: 530px;
+	margin-left: auto;
+}
+
+.main-logo {
+	width: 139px;
+	margin-right: 47px;
+}
+
+
 .navigation-link {
 	font-family: "PT Sans", sans-serif;
 	font-size: 20px;
@@ -41,10 +72,19 @@ a {
 	text-decoration: none;
 }
 
+.main-container {
+	flex-grow: 1;
+}
+
+.page-container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
 .sedona-background {
 	color: #333333;
 	background-color: #ffffff;
-	background: url(images/Vector.png) no-repeat bottom, url(images/index-background.jpg);
+	background: url(images/header-frame.svg) no-repeat bottom, url(images/index-background.jpg);
     background-repeat: no-repeat;
 	background-size: 100% auto;
 }
@@ -70,6 +110,39 @@ a {
 	font-weight: 400;
 	text-align: center;
 	color: #333333;
+}
+
+.advantages-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+.real-town, .motel, .meal, .souvenirs, .bridge-reason, .small-square, .picturesque-road, .less-tourists {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	min-height: 384px;
+}
+
+.motel img {
+	margin: 0 auto;
+}
+
+.meal img {
+	margin: 0 auto;
+}
+
+.souvenirs img {
+	margin: 0 auto;
+}
+
+.sedona-landscape, .devils-bridge {
+	display: block;
 }
 
 .advantage, .bonus-advantages {
@@ -110,6 +183,24 @@ a {
 	text-align: center;
 }
 
+.page-footer-container {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.social-media {
+	width: 107px;
+	margin-right: 61px;
+	margin-left: 72px;
+}
+
+.phone {
+	text-align: center;
+	width: 720px;
+	margin-right: 53px; 
+}
+
 .tel-number {
 	font-family: "PT Sans", sans-serif;
 	font-style: normal;
@@ -119,6 +210,11 @@ a {
 	text-align: center;
 	color: #000000;
 	text-decoration: none;
+}
+
+.html-academy {
+	max-width: 115px;
+	margin-right: 72px;
 }
 
 .get-info {
@@ -149,10 +245,6 @@ a {
 }
 
 .subscribe{
-    text-align: center;
-}
-
-.phone{
     text-align: center;
 }
 

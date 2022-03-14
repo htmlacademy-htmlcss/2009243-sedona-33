@@ -24,10 +24,10 @@
             <a class="navigation-link" href="#">Гостиницы</a>
           </li>
         </ul>
-        <ul>
+        <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#"> 
-            <img  src="images/search.svg" width="18,05" height="18,01">
+            <img  src="images/search.svg" width="18" height="18" alt="Поиск">
               <span class="visually-hidden">
                 Поиск
               </span>
@@ -35,7 +35,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <img src="images/favorite.svg" width="18,05" height="17">
+              <img src="images/favorite.svg" width="18" height="17" alt="Избранное">
               <span class="visually-hidden">
                 Избранное
               </span>
@@ -49,7 +49,8 @@
     </header>
 
 <!---Основной блок главной страницы--->
-<main class="main-index">
+<main class="main-container main-index">
+  <div class="page-container">
   <section class="city-description">
     <div class="sedona-background">
     <h1 class="visually-hidden">Седона</h1>
@@ -65,47 +66,46 @@
 <section class="pros">
   <h2 class="visually-hidden">Преимущества Седоны</h2>
 
-  <ol>
-    <li class="real-town">
-      <div class="town">
+  <ol class="advantages-list">
+    <li class="real-town town">
       <h3 class="advantage white">Настоящий<br>городок</h3>
       <p class="advantage-number white">— №1 —</p>
       <p class="advantage-description white">Седона — не аттракцион<br>для туристов, там течёт<br>своя жизнь</p> 
-      </div>
-
+    <li>
       <div class="city">
         <img class="sedona-landscape" src="images/sedona-landscape.jpg"  height="384" width="800" alt="Вид города">
       </div>
+    </li>
 
       <div class="motel">
-      <img class="center" src="images/motel.svg" height="72" width="74,7" alt="Иконка мотеля">
+      <img src="images/motel.svg" height="72" width="75" alt="Иконка мотеля">
       <h4 class="bonus-advantages">Жильё</h4>
       <p class="bonus-advantages-description">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</p>
       </div>
   
       <div class="meal">
-      <img src="images/hamburger.svg" width="73,81" height="70" alt="Гамбургер">
+      <img src="images/hamburger.svg" width="74" height="70" alt="Гамбургер">
       <h4 class="bonus-advantages">Еда</h4>
       <p class="bonus-advantages-description">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не разочаруетесь!</p>
       </div>
   
       <div class="souvenirs">
-      <img src="images/gift.svg" width="64" height="75,95" alt="Подарок">
+      <img src="images/gift.svg" width="64" height="76" alt="Подарок">
       <h4 class="bonus-advantages">Сувениры</h4>
       <p class="bonus-advantages-description">Не только китайского,<br>но и настоящего местного<br>производства!</p>
       </div>
     </li>
-   
-
-    <li class="bridge-reason">
-      <div class="bridge">
-      <h3 class="advantage white">Там есть<br>мост дьявола</h3>
-      <p class="advantage-number white">— №2 —</p>
-      <p class="advantage-description white" >Да, по нему можно пройти!<br>Если вы осмелитесь,<br>разумеется</p>
-      </div>
+      
+    <li>
       <div class="bridge-pic">
       <img class="devils-bridge" src="images/devils-bridge.jpg" height="384" width="800" alt="Мост дьявола">
       </div>
+    </li>
+
+    <li class="bridge-reason bridge">
+      <h3 class="advantage white">Там есть<br>мост дьявола</h3>
+      <p class="advantage-number white">— №2 —</p>
+      <p class="advantage-description white" >Да, по нему можно пройти!<br>Если вы осмелитесь,<br>разумеется</p>
     </li>
   
     
@@ -151,28 +151,33 @@
     <button type="submit" class="get-emails" >Подписаться</button>  
   </form>
 </section>
+</div>
 </main>
 
 <!---Подвал--->
 <footer class="contact-us">
-<h2 class="visually-hidden">Социальные сети</h2>
-  <div class="social-media">
-    <a href="https://twitter.com/htmlacademy_ru">
-      <img src="images/twitter-icon.svg" width="18" height="14,96" alt="Иконка Твиттера">
-    </a>
-    <a href="https://www.facebook.com/htmlacademy">
-      <img src="images/facebook-icon.svg" height="18" width="10" alt="Иконка Фейсбука">
-    </a>
-    <a href="https://www.youtube.com/c/HTMLAcademyRUS">
-      <img src="images/youtube-icon.svg" width="20,1" height="16" alt="Иконка YouTube">
-    </a>
+  <div class="page-footer-container">
+    <div class="social-media">
+      <!---<h2 class="visually-hidden">Социальные сети</h2>--->
+        <a href="https://twitter.com/htmlacademy_ru">
+          <img src="images/twitter-icon.svg" width="18" height="15" alt="Иконка Твиттера">
+        </a>
+        <a href="https://www.facebook.com/htmlacademy">
+          <img src="images/facebook-icon.svg" height="18" width="10" alt="Иконка Фейсбука">
+        </a>
+        <a href="https://www.youtube.com/c/HTMLAcademyRUS">
+          <img src="images/youtube-icon.svg" width="20" height="16" alt="Иконка YouTube">
+        </a>
+      </div>
+      <div class="phone">
+        <a class="tel-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </div>
+      <div class="html-academy">
+        <a href="#">
+        <img class="html-academy-logo" src="images/html-academy.svg"  width="115" height="33" alt="Логотип HTML Academy">
+        </a>
+      </div>
   </div>
-  <div class="phone">
-  <a class="tel-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
-</div>
-  <a href="#">
-    <img class="html-academy-logo" src="images/html-academy.svg"  width="114,9" height="32,9" alt="Логотип HTML Academy">
-  </a>
 </footer>
 </body>
 </html>
