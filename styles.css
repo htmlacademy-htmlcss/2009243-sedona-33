@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: url("fonts/ptsans-700.woff2") format("woff2");
+	font-display: swap;
+}
+
+html {
+	height: 100%; 
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+	background-color: #ffffff
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.navigation {
+	display: flex;
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.navigation-list {
+	width: 530px;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation-user {
+	max-width: 530px;
+	margin-left: auto;
+}
+
+.main-logo {
+	width: 139px;
+	margin-right: 47px;
+}
+
+
+.navigation-link {
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 700;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+}
+
+.main-container {
+	flex-grow: 1;
+}
+
+.page-container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.sedona-background {
+	color: #333333;
+	background-color: #ffffff;
+	background: url(images/header-frame.svg) no-repeat bottom, url(images/index-background.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.slogan, .mailing, .interesting {
+	font-family: "PT Sans", sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.reasons-to-choose {
+	font-family: "PT Sans", sans-serif;
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: 400;
+	text-align: center;
+	color: #333333;
+}
+
+.advantages-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+.real-town, .motel, .meal, .souvenirs, .bridge-reason, .small-square, .picturesque-road, .less-tourists {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	min-height: 384px;
+}
+
+.motel img {
+	margin: 0 auto;
+}
+
+.meal img {
+	margin: 0 auto;
+}
+
+.souvenirs img {
+	margin: 0 auto;
+}
+
+.sedona-landscape, .devils-bridge {
+	display: block;
+}
+
+.advantage, .bonus-advantages {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.advantage-number {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.bonus-advantages-description, .advantage-description {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.our-offers, .useful-info {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.page-footer-container {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.social-media {
+	width: 107px;
+	margin-right: 61px;
+	margin-left: 72px;
+}
+
+.phone {
+	text-align: center;
+	width: 720px;
+	margin-right: 53px; 
+}
+
+.tel-number {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+}
+
+.html-academy {
+	max-width: 115px;
+	margin-right: 72px;
+}
+
+.get-info {
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.town,.bridge{
+	background-color: #83B3D3;
+}
+
+.motel, .small-square, .less-tourists{
+	background-color: rgba(131, 179, 211, 0.12);
+
+}
+
+.souvenirs{
+	background-color: rgba(131, 179, 211, 0.12);
+}
+
+.picturesque-road{
+	background-color: rgba(131, 179, 211, 0.2);;
+}
+
+.white {
+    color:#ffffff
+}
+
+.subscribe{
+    text-align: center;
+}
+
+.find-room{
+    text-align: center;
+}
+
+.motel, .meal, .souvenirs{
+    text-align: center;
+}
+
+button{
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    background-color: #83B3D3;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.sedona-hotels{
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    background: #756257;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
